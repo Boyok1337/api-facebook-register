@@ -28,6 +28,11 @@ source venv/bin/activate
 pip install requirements.txt
 ```
 
+### 🚀 Run the project
+```python
+python -m uvicorn main:app --reload 
+```
+
 ### 😄 Make POST request to this endpoint [http://localhost:8000/register-accounts/{count}](http://localhost:8000/register-accounts/{count})
 
 ## 📝 Contributing
